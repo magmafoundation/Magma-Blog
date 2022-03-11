@@ -1,0 +1,58 @@
+.widget .tagcloud a {
+    background: #fff0f0;
+}
+
+.widget .tagcloud a:hover {
+    background: #fe4c1c;
+}
+
+
+.widget .recent-news h6 a:hover {
+    color: #fe4c1c;
+}
+
+.main-navigation > ul > li:after, .main-navigation > ul > li:before {
+    background: #fe4c1c;
+}
+
+.main-navigation ul > li > a:hover {
+    color: #fe4c1c;
+}
+
+.page-pagination li span, .page-pagination li a:hover {
+    box-shadow: 6px 6px 13px 0px rgb(255 73 0 / 30%);
+    -webkit-box-shadow: 6px 6px 13px 0px rgb(255 73 0 / 30%);
+    -moz-box-shadow: 6px 6px 13px 0px rgba(0, 195, 255, 0.3);
+    background: #fe4c1c;
+}
+
+.bg-gradient-2 {
+    background-image: linear-gradient(280deg,#fe4c1c 0%,#ff8e49 62%);
+}
+
+.site-footer-2 .footer-bottom .copyright-2 {
+    color: white;
+}
+
+#back-to-top {
+    color:#fe4c1c;
+}
+
+.topbar-info li i {
+    color: #fe4c1c;
+}
+
+.blog-post .tagcloud a {
+    background: #fff0f0;
+}
+
+.blog-post .tagcloud a:hover {
+    background: #fe4c1c;
+}
+
+.post-nav a {
+    color: #fe4c1c;
+}
+.post-nav a:hover span {
+    color: #fe4c1c;
+}
