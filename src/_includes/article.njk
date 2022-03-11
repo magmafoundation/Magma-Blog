@@ -1,0 +1,171 @@
+---
+layout: 'base.njk'
+---
+
+<div id="content" class="site-content">
+        <div class="single-page-header post-box" style="background-image: url({{thumbnail}});">
+            <div class="single-bg-overlay"></div>
+            <div class="sing-page-header-content">
+                <div class="container">
+                    <div class="row">   
+                        <div class="col-md-12">
+                            <div class="post-cat">
+                                <span class="posted-in"> 
+                                     {% for tag in tags %}
+                                        {% if tag != 'post' %}
+                                            <a href="#">{{ tag }}</a>
+                                        {% endif %}
+                                    {% endfor %}
+                                </span>
+                            </div>
+                            <div class="entry-header">                  
+                                <h1 class="entry-title">{{ title }}</h1>                              
+                                    <div class="entry-meta">
+                                        <span class="byline"><a class="url fn n" href="#"><i class="flaticon-user"></i> {{ author }}</a></span>
+                                        <span class="posted-on">
+                                            <a href="#"><i class="flaticon-clock"></i><time class="entry-date">{{ date | readableDate }}</time></a>
+                                        </span>                     
+                                    </div><!-- .entry-meta -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="entry-content">
+            <div class="container">
+                <div class="row">
+                    <div class="content-area col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                        <div class="blog-list">
+                            <article class="post-box blog-post">
+                                <div class="single-post-inner">
+                                    <div class="entry-media">
+                                        <img src="{{thumbnail}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="inner-post no-padding-top">
+                                    <div class="entry-summary">
+                                        {{ content | safe }}
+                                    </div>
+                                    <div class="entry-footer clearfix">
+                                        <div class="tagcloud">
+                                            {% for tag in tags %}
+                                                {% if tag != 'post' %}
+                                                    <a href="#">{{ tag }}</a>
+                                                {% endif %}
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                    <div class="post-nav clearfix">
+                                        <div class="post-prev"><a href="#"><span class="flaticon-arrow-pointing-to-left"></span>Previous</a></div>
+                                        <div class="post-next"><a href="#">Next<span class="flaticon-arrow-pointing-to-right"></span></a></div>
+                                    </div>
+                                    <div class="related-posts">
+                                        <h2>Related Posts</h2>
+                                        {# <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="post-box post-item">
+                                                    <div class="post-inner">
+                                                        <div class="entry-media">
+                                                            <div class="post-cat">
+                                                                <span class="posted-in"> 
+                                                                    <a href="#">1.18</a> 
+                                                                    <a href="#"">Announcements</a>
+                                                                </span>
+                                                            </div>                    
+                                                            <a href="#"><img src="https://via.placeholder.com/420x280.png" alt=""></a>
+                                                        </div>
+                                                        <div class="inner-post">
+                                                            <div class="entry-header">
+                                                                <div class="entry-meta">
+                                                                    <span class="byline"> 
+                                                                        <a class="url fn n" href="#"><i class="flaticon-user"></i> Hexeption</a>
+                                                                    </span>
+                                                                    <span class="posted-on">
+                                                                        <a href="#"><i class="flaticon-clock"></i> 
+                                                                            <time class="entry-date published">March 11, 2022</time>
+                                                                        </a>
+                                                                    </span>                        
+                                                                </div>
+                                                            <h4 class="entry-title"><a href="#">Demo</a></h4>
+                                                            </div><!-- .entry-header -->
+                                                            <div class="the-excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div><!-- .entry-content -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div> #}
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <aside class="widget-area primary-sidebar col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <section class="widget widget_categories">
+                            <h5 class="widget-title">Categories</h5>
+                            <ul>
+                                <li><a href="#">Updates</a> <span class="posts-count">(1)</span></li>
+                                <li><a href="#">Announcements </a> <span class="posts-count">(3)</span></li>
+                            </ul>
+                        </section>
+                        <!-- <section id="search-2" class="widget widget_search">
+                            <form role="search" method="get" id="search-form" class="search-form" action="">
+                                <input type="search" class="search-field" placeholder="Search…" value="" name="s">
+                                <button type="submit" class="search-submit"><i class="flaticon-search"></i></button>
+                            </form>
+                        </section> -->
+                        <section class="widget widget_recent_news">
+                            <h5 class="widget-title">Recent Posts</h5>
+                            <ul class="recent-news clearfix">
+        
+                                <li class="clearfix"> 
+                                    <div class="thumb">
+                                        <a href="single-blog.html">
+                                            <img src="https://via.placeholder.com/70x70.png" class="" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="entry-header">
+                                        <h6><a href="single-blog.html">Magma for 1.18</a></h6>
+                                        <span class="post-on"><span class="entry-date">March 11, 2022</span></span>
+                                    </div>
+                                </li>
+        
+                
+
+                            </ul>
+                            <ul class="recent-news clearfix">
+        
+                                <li class="clearfix"> 
+                                    <div class="thumb">
+                                        <a href="single-blog.html">
+                                            <img src="https://via.placeholder.com/70x70.png" class="" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="entry-header">
+                                        <h6><a href="single-blog.html">Log4j Emergency Hotfix</a></h6>
+                                        <span class="post-on"><span class="entry-date">December 11, 2021</span></span>
+                                    </div>
+                                </li>
+        
+                
+
+                            </ul>
+                        </section>
+                        <section id="tag_cloud-1" class="widget widget_tag_cloud">
+                            <h5 class="widget-title">Tags</h5>
+                            <div class="tagcloud">
+                                <a href="#" class="tag-cloud-link">1.18</a>
+                                <a href="#" class="tag-cloud-link">1.16</a>
+                                <a href="#" class="tag-cloud-link">1.12</a>
+                                <a href="#" class="tag-cloud-link">Bugs</a>
+                                <a href="#" class="tag-cloud-link">Hotfix</a>
+                            </div>
+                        </section>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
