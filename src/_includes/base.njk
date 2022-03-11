@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/assets/css/style.css" />
     <link rel="stylesheet" href="/assets/css/royal-preload.css" />
     <link rel="stylesheet" href="/assets/css/magma.css"/>
+    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
     <div id="page" class="site">
@@ -22,6 +23,18 @@
         {{ content | safe }}
         {% include 'footer.njk' %}
     </div>
+
+    <script>
+    if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+        if (!user) {
+            window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+            });
+        }
+        });
+    }
+    </script>
 
     <script src="/assets/js/jquery.min.js"></script>
     <script src="/assets/js/slick.min.js"></script>

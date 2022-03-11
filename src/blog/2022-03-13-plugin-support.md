@@ -1,7 +1,7 @@
 ---
 title: Plugin Support for 1.18
 author: Hexeption
-tags: ["1.18", "Announcements"]
+tags: ["post","1.18", "Announcements"]
 date: 2022-03-13
 thumbnail: https://via.placeholder.com/870x520.png
 thumbnailAlt: Magma 1.18 
