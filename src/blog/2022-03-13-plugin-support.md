@@ -6,7 +6,7 @@ tags:
   - post
   - "1.18"
   - Announcements
-thumbnail: https://via.placeholder.com/870x520.png
+thumbnail: /assets/images/blog/pr-indiana-jones.png
 thumbnailAlt: Magma 1.18
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis
   maiores hic totam laudantium eaque
