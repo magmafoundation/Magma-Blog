@@ -18,4 +18,5 @@ collections:
       - {lable: "Tags", name: "tags", widget: "list", default: ["post"]}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Featured Image Caption", name: "thumbnailAlt", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
