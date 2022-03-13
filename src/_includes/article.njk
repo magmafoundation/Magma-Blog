@@ -103,68 +103,8 @@ layout: 'base.njk'
                         </div>
                     </div>
 
-                    <aside class="widget-area primary-sidebar col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                        <section class="widget widget_categories">
-                            <h5 class="widget-title">Categories</h5>
-                            <ul>
-                                <li><a href="#">Updates</a> <span class="posts-count">(1)</span></li>
-                                <li><a href="#">Announcements </a> <span class="posts-count">(3)</span></li>
-                            </ul>
-                        </section>
-                        <!-- <section id="search-2" class="widget widget_search">
-                            <form role="search" method="get" id="search-form" class="search-form" action="">
-                                <input type="search" class="search-field" placeholder="Search…" value="" name="s">
-                                <button type="submit" class="search-submit"><i class="flaticon-search"></i></button>
-                            </form>
-                        </section> -->
-                        <section class="widget widget_recent_news">
-                            <h5 class="widget-title">Recent Posts</h5>
-                            <ul class="recent-news clearfix">
-        
-                                <li class="clearfix"> 
-                                    <div class="thumb">
-                                        <a href="single-blog.html">
-                                            <img src="https://via.placeholder.com/70x70.png" class="" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="entry-header">
-                                        <h6><a href="single-blog.html">Magma for 1.18</a></h6>
-                                        <span class="post-on"><span class="entry-date">March 11, 2022</span></span>
-                                    </div>
-                                </li>
-        
-                
+                    {% include 'sidebar.njk' %}
 
-                            </ul>
-                            <ul class="recent-news clearfix">
-        
-                                <li class="clearfix"> 
-                                    <div class="thumb">
-                                        <a href="single-blog.html">
-                                            <img src="https://via.placeholder.com/70x70.png" class="" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="entry-header">
-                                        <h6><a href="single-blog.html">Log4j Emergency Hotfix</a></h6>
-                                        <span class="post-on"><span class="entry-date">December 11, 2021</span></span>
-                                    </div>
-                                </li>
-        
-                
-
-                            </ul>
-                        </section>
-                        <section id="tag_cloud-1" class="widget widget_tag_cloud">
-                            <h5 class="widget-title">Tags</h5>
-                            <div class="tagcloud">
-                                <a href="#" class="tag-cloud-link">1.18</a>
-                                <a href="#" class="tag-cloud-link">1.16</a>
-                                <a href="#" class="tag-cloud-link">1.12</a>
-                                <a href="#" class="tag-cloud-link">Bugs</a>
-                                <a href="#" class="tag-cloud-link">Hotfix</a>
-                            </div>
-                        </section>
-                    </aside>
                 </div>
             </div>
         </div>
