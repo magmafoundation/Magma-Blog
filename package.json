@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "eleventy --serve", 
+    "start": "eleventy --serve",
     "build": "eleventy"
   },
   "repository": {
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/magmafoundation/Magma-Blog#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0"
+    "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy-plugin-rss": "^1.1.2"
   }
 }
