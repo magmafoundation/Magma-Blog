@@ -9,7 +9,7 @@ tags:
   - update
   - mohist
 thumbnail: /assets/images/blog/magma-gitlab.png
-thumbnailAlt: image caption
+thumbnailAlt: Why we moved to GitLab
 description: Why we moved to GitLab
 ---
 ### Heyo!
