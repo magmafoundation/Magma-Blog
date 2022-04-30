@@ -8,7 +8,7 @@ tags:
   - github
   - update
   - mohist
-thumbnail: https://i.imgur.com/3DnRHur.png
+thumbnail: /assets/images/blog/magma-gitlab.png
 thumbnailAlt: image caption
 description: Why we moved to GitLab
 ---
