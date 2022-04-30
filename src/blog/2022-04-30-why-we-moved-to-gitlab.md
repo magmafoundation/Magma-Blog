@@ -4,10 +4,11 @@ author: LeStegii
 date: 2022-04-30T18:02:09.348Z
 tags:
   - gitlab
-  - move
-  - github
   - update
   - mohist
+  - "1.12"
+  - "1.16"
+  - "1.18"
 thumbnail: /assets/images/blog/magma-gitlab.png
 thumbnailAlt: Why we moved to GitLab
 description: A small rundown of what happened and what we have planned
