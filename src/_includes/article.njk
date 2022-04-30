@@ -3,65 +3,73 @@ layout: 'base.njk'
 ---
 
 <div id="content" class="site-content">
-        <div class="single-page-header post-box" style="background-image: url({{thumbnail}});">
-            <div class="single-bg-overlay"></div>
-            <div class="sing-page-header-content">
-                <div class="container">
-                    <div class="row">   
-                        <div class="col-md-12">
-                            <div class="post-cat">
-                                <span class="posted-in"> 
-                                     {% for tag in tags %}
-                                        {% if tag != 'post' %}
-                                            <a href="#">{{ tag }}</a>
-                                        {% endif %}
-                                    {% endfor %}
+    <div class="single-page-header post-box" style="background-image: url({{thumbnail}});">
+        <div class="single-bg-overlay"></div>
+        <div class="sing-page-header-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="post-cat">
+                            <span class="posted-in">
+                                {% for tag in tags %}
+                                    {% if tag != 'post' %}
+                                        <a href="#">{{ tag }}</a>
+                                    {% endif %}
+                                {% endfor %}
+                            </span>
+                        </div>
+                        <div class="entry-header">
+                            <h1 class="entry-title">{{ title }}</h1>
+                            <div class="entry-meta">
+                                <span class="byline">
+                                    <a class="url fn n" href="#">
+                                        <i class="flaticon-user"></i>
+                                        {{ author }}</a>
+                                </span>
+                                <span class="posted-on">
+                                    <a href="#">
+                                        <i class="flaticon-clock"></i>
+                                        <time class="entry-date">{{ date | readableDate }}</time>
+                                    </a>
                                 </span>
                             </div>
-                            <div class="entry-header">                  
-                                <h1 class="entry-title">{{ title }}</h1>                              
-                                    <div class="entry-meta">
-                                        <span class="byline"><a class="url fn n" href="#"><i class="flaticon-user"></i> {{ author }}</a></span>
-                                        <span class="posted-on">
-                                            <a href="#"><i class="flaticon-clock"></i><time class="entry-date">{{ date | readableDate }}</time></a>
-                                        </span>                     
-                                    </div><!-- .entry-meta -->
-                            </div>
+                            <!-- .entry-meta -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="entry-content">
-            <div class="container">
-                <div class="row">
-                    <div class="content-area col-lg-9 col-md-9 col-sm-12 col-xs-12">
-                        <div class="blog-list">
-                            <article class="post-box blog-post">
-                                <div class="single-post-inner">
-                                    <div class="entry-media">
-                                        <img src="{{thumbnail}}" alt="">
+    <div class="entry-content">
+        <div class="container">
+            <div class="row">
+                <div class="content-area col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                    <div class="blog-list">
+                        <article class="post-box blog-post">
+                            <div class="single-post-inner">
+                                <div class="entry-media">
+                                    <img src="{{thumbnail}}" alt="">
+                                </div>
+                            </div>
+                            <div class="inner-post no-padding-top">
+                                <div class="entry-summary">
+                                    {{ content | safe }}
+                                </div>
+                                <div class="entry-footer clearfix">
+                                    <div class="tagcloud">
+                                        {% for tag in tags %}
+                                            {% if tag != 'post' %}
+                                                <a href="#">{{ tag }}</a>
+                                            {% endif %}
+                                        {% endfor %}
                                     </div>
                                 </div>
-                                <div class="inner-post no-padding-top">
-                                    <div class="entry-summary">
-                                        {{ content | safe }}
-                                    </div>
-                                    <div class="entry-footer clearfix">
-                                        <div class="tagcloud">
-                                            {% for tag in tags %}
-                                                {% if tag != 'post' %}
-                                                    <a href="#">{{ tag }}</a>
-                                                {% endif %}
-                                            {% endfor %}
-                                        </div>
-                                    </div>
-                                    {# <div class="post-nav clearfix">
+                                {# <div class="post-nav clearfix">
                                         <div class="post-prev"><a href="#"><span class="flaticon-arrow-pointing-to-left"></span>Previous</a></div>
                                         <div class="post-next"><a href="#">Next<span class="flaticon-arrow-pointing-to-right"></span></a></div>
                                     </div> #}
-                                    {# <div class="related-posts">
+                                {# <div class="related-posts">
                                         <h2>Related Posts</h2>
                                         <div class="row">
                                             <div class="col-md-6">
@@ -98,14 +106,14 @@ layout: 'base.njk'
                                             
                                         </div>
                                     </div> #}
-                                </div>
-                            </article>
-                        </div>
+                            </div>
+                        </article>
                     </div>
-
-                    {% include 'sidebar.njk' %}
-
                 </div>
+
+                {% include 'sidebar.njk' %}
+
             </div>
         </div>
     </div>
+</div>
