@@ -1,7 +1,7 @@
 ---
 title: Server JAR for 1.16!
 author: LeStegii
-date: 2022-06-02T16:14:08.585Z
+date: 2022-06-02T16:26:36.530Z
 tags:
   - server
   - "1.16"
