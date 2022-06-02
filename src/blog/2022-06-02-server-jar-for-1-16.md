@@ -20,7 +20,7 @@ In this post I'm going to share the news about our new 1.16 server JAR and tell 
 
 Until now, you had to install Magma 1.16 by downloading the installer and executing it manually. This annoying process lead to some issues, for example not being able to auto-update our software.
 
-Now, due to the help of **Malcom, Shawizz and Hexeption**, we finally have a **server JAR like we have for 1.12**, meaning you don't have to run any installers, because the server JAR will download everything it needs by itself.
+Now, due to the help of **Malcolm, Shawizz and Hexeption**, we finally have a **server JAR like we have for 1.12**, meaning you don't have to run any installers, because the server JAR will download everything it needs by itself.
 
 #### How can I install Magma now?
 
