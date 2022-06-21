@@ -1,7 +1,7 @@
 ---
 title: What exactly is Magma?
 author: LeStegii
-date: 2022-06-21T16:52:12.911Z
+date: 2022-06-21T17:17:23.247Z
 tags:
   - information
   - meta
