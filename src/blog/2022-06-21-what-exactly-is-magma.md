@@ -28,6 +28,6 @@ In this post I will tell you a bit about what exactly Magma is and how it is rel
 
 **Paper is a fork of Spigot**. It is based on **performance and bug-fixes**, as Spigot's performance is not perfect. Paper also has a much bigger API and much more features compared to CraftBukkit/Spigot. The gap between Spigot and Paper is much bigger than the one between CraftBukkit and Spigot though, since **Paper changes a lot of fundamental mechanics**, such as chunkloading or world generation.
 
-### So what is Magma?
+### So what's Magma?
 
-Magma takes all the changes that have been made by CraftBukkit and Spigot and **implements them into the Forge server**. Since Paper changes many fundamentals of the server, it is **not possible to implement all Paper changes** because they are incompatible with Forge. So in the end, Magma is Forge, but with the changes made by CraftBukkit and Spigot.
+Magma takes all the changes that have been made by CraftBukkit and Spigot and **implements them into the Forge server**. Since Paper changes many fundamentals of the server, it is **not possible to implement all Paper changes** because they are incompatible with Forge. So in the end, **Magma is Forge, but with the changes made by CraftBukkit and Spigot** (and some Paper changes).
