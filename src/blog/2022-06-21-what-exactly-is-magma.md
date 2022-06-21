@@ -19,14 +19,14 @@ In this post I will tell you a bit about what exactly Magma is and how it is rel
 
 ### What's (Craft)Bukkit?
 
-**Bukkit** is an API for creating Bukkit plugins. If you want to create a plugin for a Bukkit based server, you have to use the Bukkit API for this. 
-**CraftBukkit** on the other hand is an **implementation of Bukkit for the Minecraft Vanilla server**. It basically **allows plugins to load** and **connects the Bukkit API** which is used to create plugins with the real Minecraft Server, so that the API can interact with the server.
+**Bukkit** is an **API for creating Bukkit plugins**. If you want to create a plugin for a Bukkit based server, you have to use the Bukkit API for this. 
+**CraftBukkit** on the other hand is an **implementation of Bukkit for the Minecraft Vanilla server**. It basically **allows plugins to load** and **connects the Bukkit API** with the real Minecraft Server, so that the API can interact with the server.
 
 ### What's Spigot/Paper?
 
-**Spigot is a fork (follow up project) of CraftBukkit**. This means it is an implementation of Bukkit for the Minecraft server, but it also has **some more features** (BungeeCord, better performance, more config options, ...) and adds **a few new methods** to the Bukkit API.
+**Spigot is a fork (follow up project) of CraftBukkit**. This means it also is an implementation of Bukkit for the Minecraft server, but it also has **some more features** (BungeeCord, better performance, more config options, ...) and adds **a few new methods** to the Bukkit API.
 
-**Paper is a fork of Spigot**. It is based on **performance and bug-fixes**, as Spigot's performance is not perfect. Paper also has a much bigger API and much more features compared to CraftBukkit/Spigot.
+**Paper is a fork of Spigot**. It is based on **performance and bug-fixes**, as Spigot's performance is not perfect. Paper also has a much bigger API and much more features compared to CraftBukkit/Spigot. The gap between Spigot and Paper is much bigger than the one between CraftBukkit and Spigot though, since **Paper changes a lot of fundamental mechanics**, such as chunkloading or world generation.
 
 ### So what is Magma?
 
