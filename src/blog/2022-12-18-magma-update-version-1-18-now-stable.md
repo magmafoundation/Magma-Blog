@@ -8,6 +8,8 @@ thumbnail: /assets/images/blog/magma-gitlab.png
 thumbnailAlt: Magma
 description: Magma
 ---
+## Magma Update: Version 1.18 Now Stable
+
 We are excited to announce that Magma's latest update, version 1.18, is now stable and ready for use. This update includes significant improvements to both performance and stability, making it the best version of Magma yet.
 
 We have thoroughly tested all the new features and enhancements in version 1.18 and are confident that they are stable and ready for use. We highly recommend upgrading to this version to take full advantage of all that Magma has to offer.
