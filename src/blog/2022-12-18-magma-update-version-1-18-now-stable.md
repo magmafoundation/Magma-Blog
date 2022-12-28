@@ -6,7 +6,7 @@ tags:
   - post
 thumbnail: /assets/images/blog/caves-magma.png
 thumbnailAlt: Magma
-description: Magma
+description: 1.18 Now Stable!
 ---
 ## Magma Update: Version 1.18 Now Stable
 
