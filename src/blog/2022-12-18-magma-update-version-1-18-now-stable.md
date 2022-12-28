@@ -4,7 +4,7 @@ author: Hexeption
 date: 2022-12-18T02:51:01.850Z
 tags:
   - post
-thumbnail: /assets/images/blog/magma-gitlab.png
+thumbnail: /assets/images/blog/caves-magma.png
 thumbnailAlt: Magma
 description: Magma
 ---
