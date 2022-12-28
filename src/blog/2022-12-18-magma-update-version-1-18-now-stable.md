@@ -20,4 +20,4 @@ If you have any questions or need support, please don't hesitate to join our Dis
 
 ## Happy Holidays!
 
-And from all of us at Magma, we want to wish you a very happy holiday season and a Merry Christmas! Thank you for choosing our server, and we hope you have a great time playing with all the new features and enhancements in version 1.18.
+And from all of us at Magma, we want to wish you a very happy holiday season and a Merry Christmas! Thank you for choosing our hybrid, and we hope you have a great time playing with all the new features and enhancements in version 1.18.
