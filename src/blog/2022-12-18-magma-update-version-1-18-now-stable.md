@@ -4,6 +4,7 @@ author: Hexeption
 date: 2022-12-18T02:51:01.850Z
 tags:
   - post
+  - "1.18"
 thumbnail: /assets/images/blog/caves-magma.png
 thumbnailAlt: Magma
 description: 1.18 Now Stable!
