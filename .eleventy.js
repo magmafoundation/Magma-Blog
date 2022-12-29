@@ -1,9 +1,12 @@
 const {DateTime} = require("luxon");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const metagen = require('eleventy-plugin-metagen');
+
 
 module.exports = function(eleventyConfig) {
 
     eleventyConfig.addPlugin(pluginRss);
+    eleventyConfig.addPlugin(metagen)
 
     eleventyConfig.addPassthroughCopy("./src/assets/**");
     eleventyConfig.addPassthroughCopy("./src/admin/config.yml");

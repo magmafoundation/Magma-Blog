@@ -16,6 +16,16 @@
         <link rel="stylesheet" href="/assets/css/royal-preload.css"/>
         <link rel="stylesheet" href="/assets/css/magma.css"/>
         <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+        {% metagen name = name,
+            title = title,
+            description = description,
+            twitter_card_type = "summary_large_image",
+            url = baseURL + page.url,
+            twitter_handle = "MagmaFoundation",
+            img = baseURL + thumbnail
+        %}
+        <meta name="theme-color" content="#FE4C1C" />
+
     </head>
     <body>
         <div id="page" class="site">
